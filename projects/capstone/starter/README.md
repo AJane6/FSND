@@ -32,7 +32,7 @@ python --version
 I will from now on assume that the user has a working knowledge of these dependencies.
 
 ## Database Setup
-The user must create a database called 'heroku'. 
+If deploying locally, the user should create a database called 'heroku'. We use Heroku to provide a cloud-hosted database otherwise.
 
 #### Virtual Enviornment
 
@@ -65,7 +65,7 @@ export FLASK_ENV=development
 flask run
 ```
 
-The first command tells the program where to fund our application, and the second tells the program to run in development mode. Meaning, it reloads every time we hit save (we don't have to restart the server manually each time) and we save a lot of development time. The application runs on http://127.0.0.1:5000/, and we use CORS to make sure requests go through alright.  
+The first command tells the program where to fund our application, and the second tells the program to run in development mode. Meaning, it reloads every time we hit save (we don't have to restart the server manually each time) and we save a lot of development time. The application runs on https://castappajr.herokuapp.com/ if not running locally.  
 
 
 ## Testing
